@@ -7,6 +7,7 @@ After building a vocabulary from all the samples, two approaches have been imple
 1.	The first method (not reported in the code) was to encode each website through a one-hot-encoding of the words appearing with respect to the vocabulary, i.e. storing information only about which word appears.
 2.	The second approach, which brought to slightly better results, was to encode also how many times each word appears in each website.
 The variable encoding took more than 5 minutes, therefore the variables have been saved and can be uploaded directly in the notebook at the subtitle ‘Data Encoded’.
+
 Some of the techniques which have been implemented are:
 •	Feature engineering: encoding, for example, whether in a sample the word 'ai' was appearing more than a certain number of times
 •	Feature selection: only the features which were more correlated to the target variable have been kept
